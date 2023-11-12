@@ -26,15 +26,6 @@ I'm 35 years old and I work in a sports equipment repair service. I've had a des
         x: numericX
     };
 }
-function backgroundAnimation(element) {
-    let newCoordBackground =  getCoords(element);
-
-    if (newCoordBackground.y > gameContainer.offsetHeight) {
-        newCoordBackground.y = - element.height - gameContainer.offsetHeight;
-    }
-
-    element.style.transform = `translateY(${newCoordBackground.y + speed}px)`;
-}
 ```
 ## Experience
 In the process of creating a game in vanilla JavaScript, available on my [GitHub](https://github.com/ElderDragonfly)
