@@ -40,6 +40,6 @@ function backgroundAnimation(element) {
 ##Experience
 In the process of creating a game in vanilla JavaScript, available on my GitHub
 ##Education
-Courses for Udemy
+Courses for https://www.udemy.com
 ##Languages
 English - A2
