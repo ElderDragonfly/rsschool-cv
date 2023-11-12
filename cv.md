@@ -3,7 +3,7 @@
 - __Addres:__ Voronej, Russia
 - __Phone:__ +7 9507571309
 - __E-mail:__ ElderDragonfly@yandex.ru
-- __GitHub:__ ElderDragonfly
+- __GitHub:__ [ElderDragonfly](https://github.com/ElderDragonfly)
 - __Telegram:__ Vanilla_Dragon
 ## About my personality
 I'm 35 years old and I work in a sports equipment repair service. I've had a desire to change my occupation for a long time and one of my biggest dreams is working as an IT specialist because it can help me broaden my horizons and constantly move. I've chosen "Fronend" to make my dreams come True because this organisation is trustworthy. I consider one of my strongest traits is **perseverence**.
