@@ -14,7 +14,8 @@ I'm 35 years old and I work in a sports equipment repair service. I've had a des
 - __Git & GitHub__
 - __Photoshop__
 ## My code examples
-```export function getCoords(item) {
+```
+function getCoords(item) {
     const matrix = window.getComputedStyle(item).transform;
     const array = matrix.split(',');
     const coordY = array[array.length - 1];
