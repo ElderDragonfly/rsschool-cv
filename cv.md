@@ -37,8 +37,8 @@ function backgroundAnimation(element) {
 }
 ```
 ## Experience
-In the process of creating a game in vanilla JavaScript, available on my [GitHub]https://github.com/ElderDragonfly
+In the process of creating a game in vanilla JavaScript, available on my [GitHub](https://github.com/ElderDragonfly)
 ## Education
-- [Courses for Udemy]https://www.udemy.com
+- [Courses for Udemy](https://www.udemy.com/course/javascript_full/)
 ## Languages
 - English - A2
