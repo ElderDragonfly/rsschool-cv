@@ -15,17 +15,14 @@ I'm 35 years old and I work in a sports equipment repair service. I've had a des
 - __Photoshop__
 ## My code examples
 ```
-function getCoords(item) {
-    const matrix = window.getComputedStyle(item).transform;
-    const array = matrix.split(',');
-    const coordY = array[array.length - 1];
-    const coordX = array[array.length - 2];
-    const numericY = parseFloat(coordY);
-    const numericX = parseFloat(coordX);
-    return {
-        y: numericY,
-        x: numericX
-    };
+function searchUserChoose(array) {
+    let checked;
+    array.forEach(element => {
+        if(element.checked){
+            checked = element;
+        }
+    });
+    return checked;
 }
 ```
 ## Experience
