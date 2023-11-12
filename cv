@@ -14,6 +14,7 @@ I am 35 years old, I work in a sports equipment maintenance service. I have long
 *Git & GitHub
 *Photoshop
 ##My code examples
+```
 export function getCoords(item) {
     const matrix = window.getComputedStyle(item).transform;
     const array = matrix.split(',');
@@ -35,6 +36,7 @@ function backgroundAnimation(element) {
 
     element.style.transform = `translateY(${newCoordBackground.y + speed}px)`;
 }
+```
 ##Experience
 In the process of creating a game in vanilla JavaScript, available on my GitHub
 ##Education
