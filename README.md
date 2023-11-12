@@ -1,1 +1,1 @@
-https://ElderDragonfly.github.io/rsschool-cv/cv.md
+https://ElderDragonfly.github.io/rsschool-cv/cv
