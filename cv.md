@@ -1,0 +1,43 @@
+#Kostyakhin Konstantin
+##Contact me info
+*Addres: Voronej, Russia
+*Phone: +7 9507571309
+*E-mail: ElderDragonfly@yandex.ru
+*GitHub: ElderDragonfly
+*Telegram: Vanilla_Dragon
+##About my personality
+I am 35 years old, I work in a sports equipment maintenance service. I have long had a desire to change my occupation so that I could work constantly moving, remotely. The choice fell on Fronend development, which is where I am currently developing. I consider my strongest quality to be **perseverance**
+##My skills
+*HTML
+*CSS
+*JavaScript
+*Git & GitHub
+*Photoshop
+##My code examples
+export function getCoords(item) {
+    const matrix = window.getComputedStyle(item).transform;
+    const array = matrix.split(',');
+    const coordY = array[array.length - 1];
+    const coordX = array[array.length - 2];
+    const numericY = parseFloat(coordY);
+    const numericX = parseFloat(coordX);
+    return {
+        y: numericY,
+        x: numericX
+    };
+}
+function backgroundAnimation(element) {
+    let newCoordBackground =  getCoords(element);
+
+    if (newCoordBackground.y > gameContainer.offsetHeight) {
+        newCoordBackground.y = - element.height - gameContainer.offsetHeight;
+    }
+
+    element.style.transform = `translateY(${newCoordBackground.y + speed}px)`;
+}
+##Experience
+In the process of creating a game in vanilla JavaScript, available on my GitHub
+##Education
+Courses for Udemy
+##Languages
+English - A2
