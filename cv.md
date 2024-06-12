@@ -17,7 +17,11 @@
 
 ## Code
 ```Javascript
-
+function changeHpNumber(scorePlus = 1) {
+    hitPoint.innerHTML = `${centralNumber += scorePlus}%`;
+    score.innerHTML = `${gameScore += scorePlus}`;
+    endGame();
+}
 ```
 
 ## Education
