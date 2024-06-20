@@ -9,7 +9,7 @@
 * __GitHub__: ElderDragonfly
 
 ## About me
-
+I've always been fascinated by IT sphere and have strong ambitions linked with it. One day I dream to create my own project linked with games that's why now I'm really focused on improving my skills in this area. I strongly believe that "hard work pays off" and ready to do my best to achieve my goals. I'd be happy to get skills and knowelege required to make my plans come true.
 ## Skills
 * HTML
 * JavaScript (Basic level)
