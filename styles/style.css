@@ -1,0 +1,10 @@
+body {
+    background: rgb(102, 80, 80);
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #fff;
+}
