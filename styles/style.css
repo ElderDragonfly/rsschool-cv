@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 body {
     background: rgb(102, 80, 80);
+    font-size: 15px;
+    font-family: "Playwrite DE Grund", cursive;
 }
 .wrapper {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
 
     margin: 30px 15px;
 }
@@ -15,11 +20,16 @@ body {
     border: 1px solid #fff;
     border-radius: 25px;
 
-    min-width: 1024px;
+    max-width: 1024px;
+
+    margin: 0 auto;
 }
 
 /* header */
 
+.header {
+    flex-grow: 1;
+}
 .header-container {
     padding: 10px 0;
 }
@@ -63,4 +73,15 @@ body {
 .header-list_link {
     text-decoration: none;
     color: aqua;
+}
+
+/* main */
+
+main {
+    flex-grow: 1;
+}
+
+.aboutMe {
+    padding: 20px;
+    font-size: 20px;
 }
