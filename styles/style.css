@@ -19,22 +19,19 @@ a {
     display: flex;
     flex-wrap: wrap;
 
-    border: 1px solid #fff;
-    border-radius: 25px;
+    /* border-bottom: 1px solid #fff; */
+    box-shadow: 0px 10px 10px -10px rgb(100, 127, 199);
 
-    max-width: 1024px;
+    max-width: 900px;
 
     margin: 0 auto;
-    padding: 15px 10px;
+    padding: 15px 10px 25px;
 }
 
 /* header */
 
 .header {
     flex-grow: 1;
-}
-.header-container {
-    /* padding: 10px 0; */
 }
 
 .avatar {
@@ -59,9 +56,6 @@ a {
 
 /* header - navigation */
 
-.header-nav {
-    /* align-self: center; */
-}
 .header-list {
     display: flex;
     list-style-type: none;
@@ -76,6 +70,13 @@ a {
 
 main {
     flex-grow: 1;
+}
+.main-lists {
+    list-style-type: circle;
+    /* padding: 0; */
+}
+.main-lists li {
+    margin-bottom: 10px;
 }
 
 .aboutMe {
@@ -94,7 +95,25 @@ main {
     width: 50%;
 }
 
-.code {
+.examples {
+    width: 50%;
+}
+.examples-code {
+    background-color: grey;
+    display: block;
+    padding: 15px;
+
+    box-shadow: 0px 0px 7px 15px grey;
+
+    border-radius: 15px;
+}
+
+/* education & languages section */
+
+.education {
+    width: 50%;
+}
+.languages {
     width: 50%;
 }
 
@@ -102,6 +121,9 @@ main {
 
 .footer-container {
     display: block;
+    border: none;
+    padding-bottom: 0;
+    box-shadow: none;
 }
 .footer-content {
     display: flex;
