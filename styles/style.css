@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 body {
-    background: rgb(102, 80, 80);
+    background: rgb(42, 62, 100);
     font-size: 15px;
     font-family: "Playwrite DE Grund", cursive;
 }
@@ -13,7 +13,7 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
 
-    margin: 30px 15px;
+    margin: 0px 15px 0px;
 }
 .container {
     display: flex;
@@ -34,7 +34,7 @@ a {
     flex-grow: 1;
 }
 .header-container {
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 .avatar {
@@ -79,7 +79,7 @@ main {
 }
 
 .aboutMe {
-    padding: 20px;
+    /* padding: 20px; */
     font-size: 20px;
 }
 
@@ -97,3 +97,31 @@ main {
 .code {
     width: 50%;
 }
+
+/* footer */
+
+.footer-container {
+    display: block;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rs-school-logo {
+    height: 100px;
+    flex-grow: 1;
+}
+.gitHub {
+    height: 100px;
+    flex-grow: 1;
+}
+
+.year {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    font-weight: 900;
+}
+
