@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ElderDragonfly.github.io/rsschool-cv/

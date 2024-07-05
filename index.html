@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>CV#3. CV. Cross-Check</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header-container">
+                <div class="avatar">
+                    <img class="avatar-img" src="./img/avatar.jpg" alt="my photo">
+                </div>
+                <div class="header-info">
+                    <nav class="header-nav">
+                        <ul class="header-list">
+                            <li class="header-list_item"><a href="#aboutMe" class="header-list_link">About me</a></li>
+                            <li class="header-list_item"><a href="#skills" class="header-list_link">Skills</a></li>
+                            <li class="header-list_item"><a href="#skills" class="header-list_link">Code</a></li>
+                            <li class="header-list_item"><a href="#Education" class="header-list_link">Education</a></li>
+                            <li class="header-list_item"><a href="#Education" class="header-list_link">Languages</a></li>
+                            <li class="header-list_item"><a href="#footer" class="header-list_link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <h1>Kostyakhin Konstantin</h1>
+                    <h2>future frontend developer</h2>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="aboutMe" id="aboutMe">
+                <div class="container main-container">
+                    <h3 class="aboutMe-title">Hello, let me introduce myself</h3>
+                    <p class="aboutMe-description">
+                        Glad to meet you, i`m Konstantin. I’ve always been fascinated by IT sphere and have strong ambitions linked with it. One day I dream to create my own project linked with games that’s why now I’m really focused on improving my skills in this area. I strongly believe that “hard work pays off” and ready to do my best to achieve my goals. I’d be happy to get skills and knowelege required to make my plans come true.
+                    </p>
+                </div>
+            </section>
+
+            <section class="skillsAndExamples" id="skills">
+                <div class="container skillsAndExamples-container">
+                    <div class="skills">
+                        <h3>My skills</h3>
+                        <ul class="main-lists skills-list">
+                            <li class="skills-list_item">HTML</li>
+                            <li class="skills-list_item">JavaScript</li>
+                            <li class="skills-list_item">Git</li>
+                        </ul>
+                    </div>
+                    <div class="examples">
+                        <h3>Code examples</h3>
+                        <code class="examples-code">
+                            function changeHpNumber(scorePlus = 1) {
+                                hitPoint.innerHTML = `${centralNumber += scorePlus}%`;
+                                score.innerHTML = `${gameScore += scorePlus}`;
+                                endGame();
+                            }
+                        </code>
+                    </div>
+                </div>
+            </section>
+            <section class="educationLanguages" id="Education">
+                <div class="container educationLanguages-container">
+                    <div class="education">
+                        <h3>My education</h3>
+                        <ul class="main-lists education-list">
+                            <li class="education-list_item">Lipetsk State Technical University, LSTU (Lipetsk, Russia)</li>
+                            <li class="education-list_item">
+                                <a href="https://www.udemy.com/share/101WvE3@mWbhBSxv7eTVCyoA-67cPytAEG7WCTTL5tTrJbq5zTflOxIZbjION0XZRdWTIIu8yg==/">Udemy: Web-developer</a>
+                            </li>
+                            <li class="education-list_item">
+                                <a href="https://www.udemy.com/share/10208o3@W_HYsHrufVvs8zgmfDt5jYsJUCK29B2ucE2zso5KPh8cux9S64WHZy5YPyn6ih_Ftw==">Udemy: JavaScript+React</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="languages">
+                        <h3>My languages</h3>
+                        <ul class="main-lists languages-list">
+                            <li class="languages-list_item">Russian - Native</li>
+                            <li class="languages-list_item">English - PreIntermediate (A2)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="container footer-container">
+                <div class="footer-content">
+                    <a class="rs-school-logo_link" href="https://wearecommunity.io/events/js-stage0-rs-2024q2"><img class="rs-school-logo" src="./img/rs_school.png" alt="rs-school logo"></a>
+                    <a class="gitHub_link" href="https://github.com/ElderDragonfly"><img class="gitHub" src="./img/github.png" alt=""></a>    
+                </div>
+                <div class="contacts">
+                    <address class="address">
+                        <p class="contact_me">contact me:
+                            <a href="mailto:elderDragonfly@yandex.ru">ElderDragonfly@yandex.ru</a></p>
+                    </address>
+                    <p class="year">2024</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
