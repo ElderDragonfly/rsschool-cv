@@ -83,6 +83,9 @@ main {
     /* padding: 20px; */
     font-size: 20px;
 }
+.aboutMe-title {
+    font-size: 1.2em;
+}
 
 /* Skills & Code section */
 
@@ -115,6 +118,9 @@ main {
 }
 .languages {
     width: 50%;
+}
+.my-project-list {
+    list-style-type: circle;
 }
 
 /* footer */
@@ -158,7 +164,16 @@ main {
 .address {
     display: flex;
 }
+.contact-list {
+    list-style-type: none;
+}
 .address-link {
     padding: 0;
     margin: 0;
+}
+.contact-item:first-child {
+    margin-bottom: 10px;
+}
+.year {
+    align-items: flex-end;
 }
